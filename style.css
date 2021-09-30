@@ -1,0 +1,128 @@
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+div.collapse ul li a:hover{
+    color: #2d26f5;
+    transform: skewX(13deg);
+    display: inline-block;
+}
+
+/* div.dropdown-menu ul li a:hover{
+    color: #9491FF;
+  
+    display: inline-block;
+} */
+.btn-bg{
+    background-color: #8491ff;
+}
+.btn-bg:hover{
+    color:#9491FF ;
+    background-color: #787774;
+    border: 1px solid #9491FF ;
+}
+
+.summary{
+    background-color: #8491ff;
+    padding: 90px 0;
+}
+.summary h2{
+    font-weight: 700;
+}
+
+.bg-custom{
+    background-color: #f9f9ff;
+}
+.ms-4 {
+    margin-left: 1.5rem !important;
+    margin-top: -85px;
+}
+
+.radious{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: #f9f9ff;
+}
+.radious h2{
+    line-height: 100px;
+}
+.ltr-spacing{
+    letter-spacing: -1px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 40px;
+}
+.ab{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 27px;
+    color: #8491ff;
+    border: 1px solid #8491ff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-btn{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.about{
+    padding: 100px 0 40px 0;
+}
+.pic{
+    position: relative;
+    z-index: 0;
+}
+.jason-pic{
+	position: absolute;
+	top: -55px;
+	left: 25px;
+	z-index: 1;
+}
+div button.nil{
+    color: white;
+    background-color: #00A2D1;
+}
+
+
+
+/* Responsive CSS */
+@media (max-width: 992px) {
+    .jason-pic{
+        top: -30px;
+    }
+}
+
+@media (max-width:800px) {
+    .ms-4 {
+        margin-left: 5.5rem !important;
+        margin-top: 60px;
+    }
+}
+@media (max-width: 768px) {
+    .pic{
+        margin-bottom: 40PX;
+    }
+
+}
+
+@media (max-width:765px) {
+    .ms-4 {
+        margin-left: 4.5rem !important;
+        margin-top: 60px;
+    }
+}
+
+
+
